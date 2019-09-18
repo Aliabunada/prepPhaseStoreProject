@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto; 
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/**** NavBar Header ****/
+
+/* Header & Navbar Style */ 
+.navbar-header{
+    background-color: #262526;
+    padding-bottom: 10px;
+    position:fixed;
+    width: 100%;
+}
+.navigation-bar ul.flex-container{
+	display: flex;
+	justify-content: center;	
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.navigation-bar ul.flex-container li{
+	margin: 0px 15px;
+}
+.navigation-bar ul li a{
+    color: #ffffff;
+    padding-bottom: 10px; /* leave a space between <a> and bottom border */
+}
+ .navigation-bar ul li a:focus, .navigation-bar ul li a:hover{
+    border-bottom:  #ff0033 solid 3px;
+}
+
+/* Background Image */
+
+#headerImage{
+	background-image: url(img/backg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+}
+#introHeading{
+	position: absolute;
+    right: 350px;
+    top: 350px;
+    letter-spacing: 10px;
+}
+/* Products */
+#products{
+	padding: 90px 0px;
+	background-color: #729cba;
+}
+.item{
+	padding: 20px 0px;
+} 
+.item-img{
+	width: 250px;
+	height: 250px;
+}
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+}
+.productData{
+	text-align: center;;
+}
+
+.productData span{
+	display: inline-block;
+	margin: 5px 0px;
+}
+.total{
+	padding-top: 20px;
+	margin: auto;
+	text-align: center;
+}
+.total #buy{
+	border-radius: 6px;
+	margin-left: 10px;
+	width: 100px;
+	height: 50px;
+}
+/* About Us */
+#aboutUs{
+	text-align: center;
+	padding: 80px 0px;
+	background-color: #91ceeb;
+}
+#aboutUs h1{
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+#aboutUs p{
+	line-height: 40px;
+}
+/* Contact Us */
+.contactUs{
+	background-color: #42aaf5;
+	text-align: center;
+	padding: 50px 0px;
+}
+.contactUs form div{
+	width: 50%;
+}
+.contactUs .contactData{
+	margin: auto;
+	text-align: left;
+}
+.contactUs .contactData label,
+.contactUs .contactData input{
+	width: 100%;
+	font-size: 15px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.contactData input{
+	height: 30px;
+}
+.contactData #problem{
+	height: 200px;
+}
+.submitBtn{
+	margin: auto;
+	width: 200px;
+}
+#contacUsHeading,#contacUsHeading h1{
+	margin-bottom: 20px;
+}
+
+.social li{
+	display: inline-block;
+}
+/* footer */
+footer{
+	background-color: #17171a;
+	padding: 20px;
+}
+footer .footerContent {
+    text-align: center;
+    
+}
+footer .footerContent span{
+	display: block;
+	color:#fff;
+    font-size: 14px;
+}
+
+
+
+
+
